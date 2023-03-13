@@ -2,7 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <Button
         android:id="@+id/btnSearch"
@@ -43,4 +44,39 @@
         app:layout_constraintHorizontal_bias="0.073"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/edttitle"/>
+    <TextView
+        android:id="@+id/tv_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tv_default"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="2dp" />
+    <TextView
+        android:id="@+id/txt_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="txt_author"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="2dp" />
+    <TextView
+        android:id="@+id/txt_publisher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="txt_publisher"
+        tools:layout_editor_absoluteX="124"
+        tools:layout_editor_absoluteY="2" />
+    <TextView
+        android:id="@+id/txt_datepub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="txt_datepub"
+        tools:layout_editor_absoluteX="124"
+        tools:layout_editor_absoluteY="2" />
+    <TextView
+        android:id="@+id/txt_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="txt_ID"
+        tools:layout_editor_absoluteX="53"
+        tools:layout_editor_absoluteY="2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
