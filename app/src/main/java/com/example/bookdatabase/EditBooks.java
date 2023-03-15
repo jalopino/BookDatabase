@@ -70,6 +70,9 @@ public class EditBooks extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Title = title.getText().toString();
+                Author = author.getText().toString();
+                Publisher = publisher.getText().toString();
+                DatePub = datepublished.getText().toString();
                 new uploadDataToURL().execute();
             }
         });
