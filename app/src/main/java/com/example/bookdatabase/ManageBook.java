@@ -30,12 +30,12 @@ public class ManageBook extends AppCompatActivity {
     TextView textView, txtDefault, txtDefault_author, txtDefault_publisher, txtDefault_datepub, txtDefault_ID;
     private static EditText title;
     private static JSONParser jsonParser = new JSONParser();
-    private static String urlHost = "https://e4e3-49-145-174-8.ngrok.io/bookdatabase/SelectItemDetails.php";
-    private static String urlHostDelete = "https://e4e3-49-145-174-8.ngrok.io/bookdatabase/delete.php";
-    private static String urlHostAuthor = "https://e4e3-49-145-174-8.ngrok.io/bookdatabase/selectAuthor.php";
-    private static String urlHostPublisher = "https://e4e3-49-145-174-8.ngrok.io/bookdatabase/selectPublisher.php";
-    private static String urlHostDatePub = "https://e4e3-49-145-174-8.ngrok.io/bookdatabase/selectDatePub.php";
-    private static String urlHostID = "https://e4e3-49-145-174-8.ngrok.io/bookdatabase/selectid.php";
+    private static String urlHost = "https://4dad-49-148-116-21.ngrok.io/bookdatabase/SelectItemDetails.php";
+    private static String urlHostDelete = "https://4dad-49-148-116-21.ngrok.io/bookdatabase/delete.php";
+    private static String urlHostAuthor = "https://4dad-49-148-116-21.ngrok.io/bookdatabase/selectAuthor.php";
+    private static String urlHostPublisher = "https://4dad-49-148-116-21.ngrok.io/bookdatabase/selectPublisher.php";
+    private static String urlHostDatePub = "https://4dad-49-148-116-21.ngrok.io/bookdatabase/selectDatePub.php";
+    private static String urlHostID = "https://4dad-49-148-116-21.ngrok.io/bookdatabase/selectid.php";
     private static String TAG_MESSAGE = "message", TAG_SUCCESS = "success";
     private static String online_dataset = "";
     private static String cItemcode = "";

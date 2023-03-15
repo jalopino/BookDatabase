@@ -19,7 +19,7 @@ public class AddBook extends AppCompatActivity  {
     private static Button btnQuery;
     private static EditText edtTitle, edtAuthor, edtPublisher, edtDatePub;
     private static JSONParser jParser = new JSONParser();
-    private static String urlHost = "https://e4e3-49-145-174-8.ngrok.io/bookdatabase/insert.php";
+    private static String urlHost = "https://4dad-49-148-116-21.ngrok.io/bookdatabase/insert.php";
     private static String TAG_MESSAGE = "message" , TAG_SUCCESS = "success";
     private static String online_dataset = "";
     private static String title = "";
